@@ -1,0 +1,9 @@
+package com.javatuts.basicprograms;
+
+public class CharCount {
+	public static void main(String[] args) {
+String str="ababbdssda";
+char[] array = str.toCharArray();
+System.out.println(array);
+	}
+}

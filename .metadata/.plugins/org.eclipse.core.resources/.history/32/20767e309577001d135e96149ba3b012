@@ -1,0 +1,12 @@
+package com.javatuts.basicprograms;
+
+public class Factorial {
+	public static void main(String[] args) {
+		int no = 5;
+		for (int i = 5; i <= 0; i--) {
+
+			int fact = no * no - 1;
+		}
+		System.out.println("factorial of a number is =" + fact);
+	}
+}

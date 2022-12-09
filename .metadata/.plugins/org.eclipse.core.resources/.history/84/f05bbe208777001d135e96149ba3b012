@@ -1,0 +1,23 @@
+/*seperate odd and even Number in a given numbers in a array 
+ * input {{123},{224},{561},{10210}
+ * output{{561},{123},{224},{10210}
+ * 
+ * inuput{20,37,58,69,99,70,87,18,9}
+ * outputeven={20,58,70,18}, odd={37,69,99,87,9}*/
+package com.javatuts.basicprograms;
+
+public class Number {
+
+	public static void main(String[] args) {
+		int[] num = { 20, 37, 58, 69, 99, 70, 87, 18, 9 };
+		for (int i = 1; i <= num.length; i++) {
+			if (num[i] % 2 == 0) {
+				System.out.println("even={" + num[i] + "}");
+			} else {
+				System.out.println("odd={" + num[i] + "}");
+			}
+		}
+
+	}
+
+}
